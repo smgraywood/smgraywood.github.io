@@ -12,13 +12,14 @@
             padding: 20px;
             width: 300px;
             height: 300px;
+
         }
 
         body {
             font-family: helvetic;
-            color: white;
+            color: #000000;
             text-align: center;
-            background-image: url("https://st2.depositphotos.com/5060145/7635/v/950/depositphotos_76354989-stock-illustration-abstract-white-geometric-triangles-background.jpg");
+            background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/591/original/IMG_6470.JPG?1620239689");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-position: center;
@@ -26,40 +27,88 @@
         }
 
         h1 {
-            color: #BC8E2E;
-            font-size: 300 px;
-            font-family: Georgia, "Times New Roman", Times, serif;
+            color: #ffffff;
+            font-size: 200px;
+            font-family: monospace;
             margin: 5 px;
             text-align: center;
-            align-items: space-around;
+            align-items: center;
+            background-color: #000000;
+            border: #ffffff;
+            opacity: .7;
+            border-radius: 10px;
+            padding: 20px;
+            width: 150px;
+            height: 70px;
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            border-style: solid;
+            border: 2px, #ffffff;
         }
 
-        h2 {
-            color: #A37B59;
+        .profile {
+            border: #000000;
+            border-style: solid;
         }
 
         h3 {
-            color: #3e3f3e;
-
+            color: #ffffff;
+            font-family: monospace;
+            font-weight: lighter;
         }
 
 
         .flex-container {
             margin: auto 0;
-            background-color: #ffffff;
-            border: #000000;
-            opacity: .5;
+            background-color: #000000;
+            border: #ffffff;
+            opacity: .9;
             text-align: center;
             border-radius: 75px;
             padding: 20px;
-            width: 900px;
-            height: 900px;
+            width: 950px;
+            height: 1100px;
             font-size: 20px;
+            border-style: solid;
+            border: 2px, #ffffff;
         }
 
         .currently {
-            color: #BC8E2E;
+            color: #000000;
             font-family: initial;
+            font-weight: bolder;
+            font-size: 35px;
+            color: #ffffff;
+            font-size: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5 px;
+            text-align: center;
+            align-items: center;
+            background-color: #000000;
+            border: #ffffff;
+            opacity: .8;
+            border-radius: 10px;
+            padding: 20px;
+            width: 750px;
+            height: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
         }
 
         button {
@@ -69,10 +118,11 @@
             padding: 0 15px;
             width: 190px;
             height: 90px;
-            color: #DBBA9A;
+            color: #ffffff;
+            background-color: #000000;
             font-family: Georgia, "Times New Roman", Times, serif;
             font-weight: bolder;
-            opacity: 0.6;
+            opacity: 0.7;
             transition: 0.3s;
             display: inline-block;
             text-decoration: none;
@@ -84,18 +134,48 @@
         }
 
         button:hover {
-            background-image: linear-gradient(#ffffff, #7b807d);
+            background-image: linear-gradient(#1b1b1b, #000000);
             cursor: pointer;
-            opacity: .4;
-            color: #5f5a55;
+            opacity: .8;
+            color: #ffffff;
 
         }
 
         .buttonlink {
-            color: #5e564f;
+            color: #ffffff;
         }
 
         #container {
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .projects {
+            color: #000000;
+            font-family: initial;
+            font-weight: bolder;
+            font-size: 35px;
+            color: #ffffff;
+            font-size: 200px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 5 px;
+            text-align: center;
+            align-items: center;
+            background-color: #000000;
+            border: #ffffff;
+            opacity: .8;
+            border-radius: 10px;
+            padding: 20px;
+            width: 170px;
+            height: 30px;
+            font-size: 20px;
             display: flex;
             justify-content: flex-end;
             flex-flow: column;
@@ -149,20 +229,45 @@
             width: 100%;
         }
 
-        h5 {
-            color: #cc9c0d;
+        h4 {
+            color: #ffffff;
             font-family: monospace;
             font-weight: lighter;
             font-size: 1.5em;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 5 px;
+            text-align: center;
+            align-items: center;
+            background-color: #000000;
+            border-style: solid;
+            border: 2px, #ffffff;
+            opacity: .8;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-end;
+            flex-flow: column;
+            align-items: center;
+            position: relative;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
         }
     </style>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <h2>My name is Sarah!</h2>
+    <div id="container">
+        <h1>Hello World!<br><br>I'm Sarah!</h1>
+    </div>
+
     <p>
-        <img src="https://0.academia-photos.com/88813598/20274235/41971587/s200_sarah.graywood.jpg" class="profile" />
+        <img class=profile src="https://0.academia-photos.com/88813598/20274235/41971587/s200_sarah.graywood.jpg"
+            class="profile" />
     </p>
     <hr />
     <div id="container">
@@ -200,22 +305,33 @@
                 a variety of technology and engineering topics; enrolled myself in a 3
                 week course on the basics of HTML, CSS, and Javascript; and applied and
                 was accepted into Stanford's Code in Place program. I have also completed
-                several courses on FreeCodeCamp including the Javascript Basics course and the Debugging course.
+                several courses on FreeCodeCamp including the Javascript Basics course, Debugging, and Object Oriented Programming.
                 <br /><br />I have no
                 formal experience in coding or background in computer science, but I am so
                 excited and ready to learn!
             </h3>
         </div>
     </div>
-    <h2 class="currently">
-        <br /><span>I'm currently learning how to code Javascript, Python, HTML, CSS,
-            and SQL with the help of Mimo, freeCodeCamp, and SheCodes.</span>
-    </h2>
+    <div id="container">
+        <h2 class="currently">
+            <br /><span>I'm currently learning how to code Javascript, Python, HTML, CSS,
+                and SQL with the help of Mimo, freeCodeCamp, and SheCodes.</span>
+        </h2>
+    </div>
+    </div>
     <br />
     <strong><button class=button>
             <a class=buttonlink href="http://smgraywood.123Guestbook.com/">Wish me luck on this journey!</a>
         </button> </strong>
     <hr />
+    <div id="container">
+        <h2 class="projects">
+            <br /><span>Current projects
+                <a href="https://github.com/smgraywood" target="_blank"></a>
+            </span>
+        </h2>
+    </div>
+    <br />
     <div id="container">
         <div class=list>
             <ul>
@@ -250,7 +366,9 @@
         </div>
     </div>
     <br />
-    <h5>Coded by Sarah Graywood</h5>
+    <div id="container">
+        <h4>Coded by Sarah Graywood<br>Art by Sara Goodman</h4>
+    </div>
     <script>
         let city = prompt("What city are you from?");
         alert("So glad to have you all the way from" + " " + city + "!");
