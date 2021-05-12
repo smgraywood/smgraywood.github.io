@@ -32,14 +32,13 @@
             font-family: monospace;
             margin: 5 px;
             text-align: center;
-            align-items: center;
             background-color: #000000;
             border: #ffffff;
             opacity: .7;
             border-radius: 10px;
             padding: 20px;
             width: 150px;
-            height: 70px;
+            height: 30px;
             font-size: 20px;
             display: flex;
             justify-content: flex-end;
@@ -52,6 +51,36 @@
             bottom: 0;
             border-style: solid;
             border: 2px, #ffffff;
+        }
+
+        #name {
+            margin: 0 auto;
+            padding: 0;
+            font-family: fantasy;
+            background: #333;
+            font-size: 100px;
+            text-transform: uppercase;
+            font-weight: 2000px;
+            width: 700px;
+            max-width: 80%;
+            max-height: 80%;
+            letter-spacing: 15px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            flex-flow: row;
+            flex-direction: row;
+            align-items: center;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            background: url(https://thumbs.dreamstime.com/b/san-jose-skyline-night-san-jose-skyline-night-buildings-illuminated-above-190499196.jpg) 10% 25%;
+            background-size: cover;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+
         }
 
         .profile {
@@ -298,7 +327,10 @@
 
 <body>
     <div id="container">
-        <h1>Hello World!<br><br>I'm Sarah!</h1>
+        <h1>Hello World!</h1>
+    </div>
+    <div id="name"><strong> Sarah Graywood </strong>
+
     </div>
 
     <p>
@@ -310,26 +342,26 @@
 
         <div class="flex-container">
             <h3>
-                I am a 29 years old Latina from Watsonville, CA looking to make a career change after over
+                I am a 29 year old Latina from Watsonville, CA looking to make a career change after over
                 a decade of working in education.
                 <br /><br />My coding journey to date
-                looks like this: In 3rd grade I wanted to be a paleontologist. Why is this relevant? Because this is the 
-                first time I started to be told that I couldn't be a scientist. I unfortunately had a series of not 
+                looks like this: In 3rd grade I wanted to be a paleontologist. Why is this relevant? Because this is the
+                first time I started to be told that I couldn't be a scientist. I unfortunately had a series of not
                 so wonderful teachers from 3rd grade onwards who made me believe that I wasn't smart enough,
                 and that girls shouldn't even try to be mathematicians or scientists. For a long time I believed
-                that they were right and that I couldn't be a mathematician or a scientist. 
+                that they were right and that I couldn't be a mathematician or a scientist.
                 These teachers actually were part of the reason I chose to go into education,
-                 both because I thought I couldn't pursue my passions (paleontology morphed into cardiology and then 
-                 into research), but also because I wanted to make sure no child, and especially no young woman
-                  of color, ever felt that way under my teaching. <br><br>
-                  Fast forward to March 2020. I started to become interested in programming last year
+                both because I thought I couldn't pursue my passions (paleontology morphed into cardiology and then
+                into research), but also because I wanted to make sure no child, and especially no young woman
+                of color, ever felt that way under my teaching. <br><br>
+                Fast forward to March 2020. I started to become interested in programming last year
                 when my school transitioned into virtual teaching during SIP. I started
                 working with new technologies and programs that I had never seen before
                 and slowly began to realize that I was more interested in understanding
                 the programming behind things like Zoom, Buzz, Seesaw, Tableau, and other programs
                 we were utilizing than I was in teaching. I felt immense guilt about this
                 at first, believing that it somehow made me a bad teacher and generally a
-                bad person and actually pursued a new teaching job back in CA (I was living in Chicago at the time), 
+                bad person and actually pursued a new teaching job back in CA (I was living in Chicago at the time),
                 thinking that maybe it was just homesickness and online teaching that was making me so despondent.
                 <br /><br />Despite these feelings, I began to look for programs to begin
                 learning to code in earnest in October of 2020, but had a difficult time
@@ -337,7 +369,7 @@
                 that required 80+ hour work weeks.
                 <br /><br />In March of this year I
                 took a short leave of absence from my teaching position to reevaluate my
-                priorities and began to use an app called Mimo to learn Python in order to keep myself busy. 
+                priorities and began to use an app called Mimo to learn Python in order to keep myself busy.
                 The more I learned about programming on Mimo, the more I wanted to learn, until I
                 reached out to a friend who works as a software engineer in SF who started
                 to connect me with further resources. I then transitioned my full time
@@ -347,7 +379,8 @@
                 <br /><br />To date, I have earned 5 certificates from Mimo
                 including Introduction to Javascript, Introduction to Python, Web
                 Development, Become a Hacker, and Android App Development as well as completed 20+ non certificated
-                courses in the Mimo app. In addition, I have attended numerous free introductory classes with General Assembly on
+                courses in the Mimo app. In addition, I have attended numerous free introductory classes with General
+                Assembly on
                 a variety of technology and engineering topics; completed SheCodes Basics; and applied and
                 was accepted into Stanford's Code in Place program. I have also completed
                 several courses on FreeCodeCamp including the Javascript Basics course, Debugging, and Object Oriented
@@ -428,9 +461,9 @@
         } else {
             alert("Wow! Thanks for coming from so far away!");
         }
-        /* let name = prompt("What is your first name?");
-        alert("Welcome to my page," + " " + name + "!");
-*/
+        /*let name = prompt("What is your first name?");
+        alert("Welcome to my page," + " " + name + "!");*/
+
         function signIn() {
             let button = document.querySelector("button");
             if ("click") {
