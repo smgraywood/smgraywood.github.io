@@ -12,18 +12,19 @@
             padding: 20px;
             width: 300px;
             height: 300px;
-
+            border: #ffffff;
+            border-style: solid;
         }
 
         body {
             font-family: helvetic;
             color: #000000;
             text-align: center;
-            background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/591/original/IMG_6470.JPG?1620239689");
-            background-repeat: repeat;
+            background-image: url("https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/06/san-jose-skyline-2-crop-74f4a4aeb423c94917df2fe316710869-1.jpg");
+            background-repeat: no-repeat;
             background-attachment: scroll;
             background-position: center;
-            background-color: #ffce3d;
+            background-color: #122D52;
         }
 
         h1 {
@@ -32,7 +33,7 @@
             font-family: monospace;
             margin: 5 px;
             text-align: center;
-            background-color: #000000;
+            background-color: #455469;
             border: #ffffff;
             opacity: .7;
             border-radius: 10px;
@@ -61,13 +62,13 @@
             width: 700px;
             max-width: 150%;
             max-height: 100%;
-            text-align: center;   
-            padding:20px;
-            margin:15px;
-            display:inline-block;
-            position:relative;
+            text-align: center;
+            padding: 20px;
+            margin: 15px;
+            display: inline-block;
+            position: relative;
         }
-        
+
         #name {
             margin: 0 auto;
             padding: 0;
@@ -91,28 +92,26 @@
             left: 0;
             top: 0;
             bottom: 0;
-            background: url(https://thumbs.dreamstime.com/b/san-jose-skyline-night-san-jose-skyline-night-buildings-illuminated-above-190499196.jpg) 10% 25%;
+            background: url(https://www.terragalleria.com/images/us-ca/usca80085.jpeg) 10% 25%;
             background-size: cover;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
 
         }
 
-        .profile {
-            border: #000000;
-            border-style: solid;
-        }
 
         h3 {
             color: #ffffff;
-            font-family: monospace;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-weight: lighter;
         }
 
 
         .flex-container {
             margin: auto 0;
-            background-color: #1D182F;
+            background-color: #455469;
+            /*background-image: url("https://thumbs.dreamstime.com/b/san-jose-skyline-night-san-jose-skyline-night-buildings-illuminated-above-190499196.jpg");
+                 background-size: contain;*/
             border: #ffffff;
             opacity: .8;
             text-align: center;
@@ -150,7 +149,7 @@
         }
 
         .currently {
-            color: #000000;
+            color: #1D182F;
             font-family: initial;
             font-weight: bolder;
             font-size: 35px;
@@ -160,7 +159,7 @@
             margin: 5 px;
             text-align: center;
             align-items: center;
-            background-color: #000000;
+            background-color: #1D182F;
             border: #ffffff;
             opacity: .7;
             border-radius: 10px;
@@ -212,7 +211,7 @@
         }
 
         .buttonlink {
-            color: #000000;
+            color: #ffffff;
         }
 
         #container {
@@ -316,11 +315,11 @@
             background-color: #1D182F;
             border-style: solid;
             border: 2px, #ffffff;
-            opacity: .8;
+            opacity: .4;
             border-radius: 10px;
             padding: 20px;
-            width: 300px;
-            height: 90px;
+            width: 200px;
+            height: 50px;
             max-height: 100%;
             font-size: 20px;
             display: flex;
@@ -344,9 +343,11 @@
     <div id="container">
         <h1>Hello World!</h1>
     </div>
-    <div id=#name_parent><div id="name"><strong> Sarah Graywood </strong>
+    <div id=#name_parent>
+        <div id="name"><strong> Sarah Graywood </strong>
 
-        </div></div>
+        </div>
+    </div>
 
     <p>
         <img class=profile src="https://0.academia-photos.com/88813598/20274235/41971587/s200_sarah.graywood.jpg"
@@ -463,12 +464,10 @@
     <div id="container">
         <h4><strong>Coded by</strong>
             Sarah Graywood
-            <br><strong>Art by</strong> <a class=skyLink href="https://www.instagram.com/skynaomigoodman/">Sky
-                Goodman</a>
         </h4>
     </div>
     <script>
-        let city = prompt("What city are you from?");
+        /*let city = prompt("What city are you from?");
         alert("So glad to have you all the way from" + " " + city + "!");
         let distance = prompt("How many miles from San Jose is that?")
         if (distance <= 100) {
@@ -476,7 +475,7 @@
         } else {
             alert("Wow! Thanks for coming from so far away!");
         }
-        /*let name = prompt("What is your first name?");
+        let name = prompt("What is your first name?");
         alert("Welcome to my page," + " " + name + "!");*/
 
         function signIn() {
